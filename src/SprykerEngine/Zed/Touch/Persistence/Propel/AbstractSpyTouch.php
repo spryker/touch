@@ -5,7 +5,7 @@
 
 namespace SprykerEngine\Zed\Touch\Persistence\Propel;
 
-use SprykerEngine\Zed\Touch\Persistence\Propel\Base\SpyTouch as BaseSpyTouch;
+use Orm\Zed\Touch\Persistence\Base\SpyTouch as BaseSpyTouch;
 
 /**
  * Skeleton subclass for representing a row from the 'spy_touch' table.
@@ -17,7 +17,7 @@ use SprykerEngine\Zed\Touch\Persistence\Propel\Base\SpyTouch as BaseSpyTouch;
  * long as it does not already exist in the output directory.
  *
  */
-class SpyTouch extends BaseSpyTouch
+abstract class AbstractSpyTouch extends BaseSpyTouch
 {
 
 }

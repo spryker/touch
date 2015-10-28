@@ -2,7 +2,7 @@
 
 namespace SprykerEngine\Zed\Touch\Persistence\Propel;
 
-use SprykerEngine\Zed\Touch\Persistence\Propel\Base\SpyTouchStorageQuery as BaseSpyTouchStorageQuery;
+use Orm\Zed\Touch\Persistence\Base\SpyTouchStorageQuery as BaseSpyTouchStorageQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'spy_touch_storage' table.
@@ -14,7 +14,7 @@ use SprykerEngine\Zed\Touch\Persistence\Propel\Base\SpyTouchStorageQuery as Base
  * long as it does not already exist in the output directory.
  *
  */
-class SpyTouchStorageQuery extends BaseSpyTouchStorageQuery
+abstract class AbstractSpyTouchStorageQuery extends BaseSpyTouchStorageQuery
 {
 
 }
